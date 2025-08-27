@@ -1,9 +1,9 @@
 // src/App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage'; // We'll create this next
-import ForecastPage from './pages/ForecastPage'; // And this one
-
+import Header from '../components/Header'; // <-- Must be capital H
+import Hero from '../components/Hero';     // <-- Must be capital H
+import Features from '../components/Features'; // <-- Must be capital F
 function App() {
   return (
     <Routes>
